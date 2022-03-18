@@ -1,0 +1,303 @@
+/*NAVBAR*/
+nav /*nav bar size, color and floating*/
+{ background: white;
+  padding-top: 29px;
+  padding-bottom: 14px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+nav a /*navbar elements font and position*/
+{ position: relative;
+  left: 18.6%;
+  padding-top: 1%;
+  padding-right: 2.3%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+nav a:hover, footer ul#links li a:hover /*nav bar an footer hover effect*/
+{ color:gray;
+}
+nav a#img /*nav bar logo size and position*/
+{ float: left;
+  position: relative;
+  top: -8px;
+  left: 6px;
+  height: 35px;
+  padding-top: 0;
+  padding-left: 1.8%;
+}
+/*BODY*/
+body /*page background color*/ 
+{ margin: auto;
+  background-color: white;
+  width: 100%;
+}
+article /*article float and  width*/
+{ position: relative;
+  float: top;
+  margin: auto;
+  width: 100%;
+}
+.button /*buttons under big images and chicken paragraph size, background and font*/
+{ margin: 15px;
+  padding: 12px;
+  padding-left: 47px;
+  padding-right: 48px;
+  background: #dc142f;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: 0px;
+}
+#button /*buttons link formatting*/
+{ color: white;
+  text-decoration: none;
+}
+article section button.button:hover /*buttons hover effect*/
+{ background: #ac1125;
+}
+article section button /*position of buttons under big images*/
+{ position: relative;
+  left: 43.05%;
+}
+h1#welcome /*big paragraph formatting*/
+{ margin-top: 100px;
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-decoration: underline #dc142f 3px;
+  text-underline-offset: 12px;
+  text-align: center;
+}
+#pan1, #pan2 /*chicken paragraph position*/
+{ position: relative;
+  float: left;
+  margin: auto;
+}
+#pan1 /*chicken image section size*/
+{ display: flex;
+  width: 50%;
+}
+#img-pan1 /*chicken image size*/ 
+{ position: relative;
+  top: -40px;
+  width: 100%;
+}
+#pan2 /*chicken paragraph section size*/
+{ width: 38%;
+  padding-top: 180px;
+}
+#pan2 h1 /*chickem paragraph header position and font*/
+{ position: relative;
+  top: 10px;
+  left: 120px;
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#pan2 p /*chicken paragraph szie and font*/
+{ position: relative;
+  top: -8px;
+  left: 150px;
+  width: 88%;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+#pan2 button /*chicken paragraph button position*/
+{ position: relative;
+  top: 10px;
+  left: -15px;
+}
+article#sec3 section /*second big image size and position*/
+{ position: relative;
+  float: left;
+  width: 100%;
+}
+#pan4, #pan5 /*twin panels' size, font color and position*/
+{ position: relative;
+  float: left;
+  color: white;
+  width: 47%;
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+#pan4 /*black twin panel's background color and margin*/
+{ background-color: black;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+#pan5 /*red twin panel's background color and margin*/
+{ background-color: #dc142f;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+#pan4 h1, #pan5 h1 /*twin panels' header font*/
+{ font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#pan4 h1 /*black twin panel's header position*/
+{ padding-top: 150px;
+}
+#pan5 h1 /*red twin panel's header position and decoration*/
+{ padding-top: 160px;
+  text-decoration: underline white;
+  text-underline-offset: 10px; 
+}
+#pan4 p, #pan5 p /*twin panels' paragraph font and position*/
+{ position: relative;
+  top: -15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+#pan4 button, #pan5 button /*twin panels' buttons font, size and position*/
+{ border: 3px solid white;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px;
+  padding-left: 54px;
+  padding-right: 54px;
+  margin: 0;
+  position: relative;
+  top: 6%;
+  left: 49.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#pan4 button /*black twin button's background color and position adjustment*/
+{ background-color: black;
+  top: 6%;
+}
+#pan5 button /*red twin buttons's background color and position and size adjustment*/
+{ background-color: #dc142f;
+  top: 7%;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+#pan5 button:hover /*red twin buttons's hover effect*/
+{ background-color: #ac1125;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+#delivery /*delivery section font, backgroung, and size*/
+{ position: relative;
+  float: left;
+  width: 100%;
+  height: 105px;
+  background: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#delivery a img /*delivery section logos size and position*/
+{ height: 90px;
+  margin: 7px;
+  vertical-align: middle; 
+
+}
+/*FOOTER*/
+footer /*footer font, background and size*/
+{ width: 100%;
+  display: flow-root;
+  position: relative;
+  padding-bottom: 40px;
+  color: white;
+  background: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer ul#links /*footer links position and decoration*/ 
+{ position: relative;
+  float: left;
+  top: 5px;
+  left: -5px;
+  font-size: 14px;
+  padding-top: 25px;
+  padding-right: 6.8%;
+  margin: auto;
+  list-style: none;
+}
+footer ul#links li /*footer links padding adjustment*/
+{ padding-top: 8px;
+}
+footer ul#links li a /*footer links color and decoration*/
+{ color: white;
+  text-decoration: none;
+}
+footer section#social /*social media links position*/
+{ line-height: 0px;
+  position: relative;
+  float: right;
+  top: 35px;
+  right: 30px;
+}
+footer section#social p /*social media links size and position adjustment*/
+{ width: 95%;
+  position: relative;
+  left: 45px;
+}
+footer ul#social li /*social media links side-by-side display*/
+{ list-style: none;
+  display: inline;
+  padding: 7px;
+}
+footer ul#social li a img /*social media links logos' size*/
+{ height: 40px;
+}
+hr#line /*footer line size and colour*/
+{ width: 95.5%;
+  position: relative;
+  top: 48px;
+  left: -2px;
+  background: white;
+  color: white;
+}
+#logo-white /*footer logo size and position*/
+{ padding-top: 100px;
+  padding-left: 32px;
+  height: 35px;
+}
+#TCs /*policies links' position*/
+{ position: relative;
+  float: right;
+  bottom: 20px;
+  right: 35px;
+}
+#TCs a /*policies links fontand position adjustment*/
+{ padding-left: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: initial;
+  font-size: 14px;
+  letter-spacing: 0px;
+}
