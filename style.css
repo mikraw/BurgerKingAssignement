@@ -1,0 +1,203 @@
+body { /*site body properties*/
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: auto;
+    background-color: #f5e0c6;
+}
+nav { /*nav bar size, color and positioning*/ 
+    height: 80px;
+    margin: auto;
+    width: 100%;
+    background-color: #f5e0c6;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 1;
+}
+#nav { /*nav bar elements container positioning*/
+    background-color: #f5e0c6;
+    margin: auto;
+    margin-left: -15px;
+    padding-top: 20px;
+}
+#bk-logo { /*nav bar logo positioning*/
+    margin-top: -15px;
+    margin-left: 16.5%;
+    position: fixed;
+    z-index: 100;
+}
+#nav>a { /*nav bar elements positioning and font*/
+    position: relative;
+    float: left;
+    font-family: 'Titan One', cursive;
+    font-size: 18px;
+    padding: 10px;
+    color: #2b0000;
+    /* border: cyan 1px solid; */
+}
+#nav>a:hover { /*nav bar hover effect*/
+    color: firebrick;
+}
+#button2 { /*"Sign Up" button positioning, color, size, shape and font*/
+    position: relative;
+    float: right;
+    font-family: 'Titan One', cursive;
+    font-size: 14px;
+    color: #f5e0c6;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: firebrick;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#button2:hover { /*"Sign Up" button hover effect*/
+    background-color: maroon;
+    cursor:pointer;
+}
+#katsu_img { /*main image size and padding*/
+    width: 100%;
+    padding-top: 60px;
+}
+#button4:hover { /*main image button hover effect (currently not working*/
+    color: #dbc4a7;
+    cursor: pointer;
+}
+.pane { /*panes size*/
+  width: 35%;
+}
+.pbtn { /*panes buttons size, color, shape & font*/
+  border: 0;
+  border-radius: 15px;
+  background-color: firebrick;
+  padding: 6px 23px;
+  color: whitesmoke;
+  font-family: 'Titian One', cursive;
+  font-weight: bolder;
+}
+#p1btn:hover, #p3btn:hover, #p4btn:hover  {
+  background-color: maroon;
+  cursor: pointer;
+}
+#pane1 { /*pane1 position*/
+  margin-right: 50.5%;
+  margin-left: auto;
+}
+#pane2 { /*pane2 position*/
+  margin-left: 50.5%;
+  margin-right: auto;
+  margin-top: -313px;
+}
+#pane3 { /*pane3 position*/
+  margin-right: 50.5%;
+  margin-left: auto;
+}
+#pane4 { /*pane4 position*/
+  margin-left: 50.5%;
+  margin-right: auto;
+  margin-top: -157px;
+}
+.pane>a>img {  /*panes images border, rounded edges, positioning & filling*/
+  width: 100%;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#location { /*locbar size*/
+    width: 100%;
+    height: 60px;
+}
+#pin { /*locbar pin size*/
+    height: 20px;
+}
+#button3:hover { /*locbar button hover efect (currently not working)*/
+    background-color: maroon;
+    margin-top: -200px;
+}
+#footerLine { /*wavy footer line positioning and size*/
+  margin: -10px 0 -10px 0;
+  width: 100%;}
+footer { /*footer position, font, colors and size*/
+    position:relative;
+    float: bottom;
+    margin-bottom: 60px ;
+    background: #2b0000;
+    color: #f5e0c6;
+    height: 30%;
+    font-family: 'Titan One', cursive;
+    font-weight: 900;
+    font-size: 22px;
+}
+ul.footer { /*footer links positioning*/
+    position:relative;
+    float: left;
+    list-style: none;
+    font-weight: 100;
+    padding-left: 8%;
+    padding-right: 25%;
+}
+ul.footer>a { /*footer links font color*/
+    color: #dbc4a7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+ul.footer a:hover, footer ul#links li a:hover /*footer hover effect*/ {
+    text-decoration: underline;
+}
+a { /*links decoration setting*/
+    text-decoration: none;
+}
+hr#footer { /*footer line positioning*/
+    margin-top: 13%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+ul#social { /*footer social links container positioning and font weight*/
+    position:relative;
+    float: right;
+    list-style: none;
+    font-weight: 100;
+    margin: -2% 8% 0 0;
+
+}
+#lang>img {
+  width: 15px;
+  padding: 5px;
+}
+#lang {
+  float: left;
+  font-size: medium;
+  padding: 0px 15px 5px 5px;
+}
+ul#social>a { /*footer social links positioning*/
+    position: relative;
+    float: left;
+}
+ul#social>div { /*language chooser positioning*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    float: left;
+}
+img.social { /*footer social links logos size and spacing*/
+    height: 30px;
+    padding: 2px;
+}
+div#copyright { /*footer copyright disclaimer font settings and positioning*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    position: sticky;
+    float: bottom;
+    margin-top: 2%;
+    margin-left: 8%;
+    padding-bottom: 4%;
+}
+div#logo { /*footer logo font and positioning*/
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
